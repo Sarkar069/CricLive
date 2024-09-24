@@ -66,7 +66,7 @@ print(fetch_score('12345'))  # Replace '12345' with a valid match ID
 ```
 ## Random User-Agent
 The script randomly selects a User-Agent from a predefined list to avoid being flagged or blocked by the website. You can modify the list of User-Agents by editing the `USER_AGENTS` variable.
-```json
+```python
 USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -84,6 +84,7 @@ If something goes wrong (e.g., invalid match ID, network issues, or changes to t
 ```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 ```python
 ### Instructions:
 - Replace `'cricket_score_fetcher.py'` with the actual script filename you're using.
