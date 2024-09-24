@@ -1,6 +1,5 @@
 # crickbuzz-live-score-scrapper
 
-# Cricket Score Fetcher
 
 This is a Python script to fetch live cricket match scores from Cricbuzz using web scraping techniques. It uses the `requests` library to make HTTP requests and `BeautifulSoup` from `bs4` to parse the HTML. The script also incorporates random User-Agent selection to mimic requests from different browsers.
 
@@ -83,16 +82,8 @@ If something goes wrong (e.g., invalid match ID, network issues, or changes to t
 }
 ```
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT [License](https://github.com/Sarkar069/crickbuzz-live-score-scrapper/tree/main?tab=MIT-1-ov-file#readme).See the LICENSE file for details.
 
-```python
-### Instructions:
-- Replace `'cricket_score_fetcher.py'` with the actual script filename you're using.
-- Customize the `match_id` in the example usage to a valid one for testing purposes.
-
-This `README.md` provides a detailed overview of the script and how to use it. Let me know if you'd like to add more sections!
-
-```
 
 
 
