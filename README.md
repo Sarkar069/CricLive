@@ -82,7 +82,7 @@ If something goes wrong (e.g., invalid match ID, network issues, or changes to t
 }
 ```
 ## License
-This project is licensed under the MIT [License](https://github.com/Sarkar069/crickbuzz-live-score-scrapper/tree/main?tab=MIT-1-ov-file#readme).See the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/Sarkar069/crickbuzz-live-score-scrapper/tree/main?tab=MIT-1-ov-file#readme). See the LICENSE file for details.
 
 
 
