@@ -26,3 +26,13 @@ This is a Python script to fetch live cricket match scores from Cricbuzz using w
 You can install the required libraries using the following command:
 ```bash
 pip install requests beautifulsoup4
+```
+## How to Use
+1. Clone or download this repository.
+2.Ensure you have the required dependencies installed (see Requirements).
+3. Open the script file and edit the match_id in the example usage section to the match you want to track.
+4. Run the script using the following command:
+```bash
+   python cricket_score_fetcher.py
+```
+
