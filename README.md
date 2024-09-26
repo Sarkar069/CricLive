@@ -1,4 +1,4 @@
-# crickbuzz-live-score-scrapper
+# CricLive
 
 
 This is a Python script to fetch live cricket match scores from Cricbuzz using web scraping techniques. It uses the `requests` library to make HTTP requests and `BeautifulSoup` from `bs4` to parse the HTML. The script also incorporates random User-Agent selection to mimic requests from different browsers.
