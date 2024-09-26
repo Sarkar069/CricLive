@@ -35,7 +35,7 @@ git clone https://github.com/Sarkar069/CricLive.git
 3. Open the script file and edit the match_id in the example usage section to the match you want to track.
 4. Run the script using the following command:
 ```bash
-python3 scrapper.py
+python3 livescore.py
 ```
 
 ## Example usage
