@@ -28,6 +28,9 @@ pip install requests beautifulsoup4
 ```
 ## How to Use
 1. Clone or download this repository.
+```bash
+git clone https://github.com/Sarkar069/CricLive.git
+```
 2. Ensure you have the required dependencies installed (see Requirements).
 3. Open the script file and edit the match_id in the example usage section to the match you want to track.
 4. Run the script using the following command:
