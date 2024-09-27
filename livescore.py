@@ -41,9 +41,12 @@ def fetch_score(match_id):
         rain_break = safe_get_text('.cb-text-rain')
         wet_outfield = safe_get_text('.cb-text-wetoutfield')
 
+        update_message = update or process or noresult or stumps or lunch or inningsbreak or tea or rain_break or wet_outfield or "Match stats will updated soon"
+
+
         return {
             'title': safe_get_text('.cb-nav-hdr.cb-font-18.line-ht24').replace(', Commentary', ''),
-            'update': update if update != 'Not Available' else process or noresult or stumps or lunch or inningsbreak or tea or rain_break or wet_outfield or 'Match status will update soon',
+            'update': update_message
             'liveScore': safe_get_text('.cb-font-20.text-bold', default='Score not available'),
             'runRate': safe_get_text('.cb-font-12.cb-text-gray',1, default='Run rate not available').replace('CRR:\u00a0', ''),
             'batsmanOne': safe_get_text('.cb-col.cb-col-50', 1),
